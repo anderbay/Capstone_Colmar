@@ -1,0 +1,666 @@
+/* gurmukhi */
+@font-face {
+  font-family: 'Mukta Mahee';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Mukta Mahee Light'), local('MuktaMahee-Light'), url(https://fonts.gstatic.com/s/muktamahee/v2/kolKnxd29wydc4yTvsM4p-0BVtQSkG4_NlvyB7IkprU.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0A01-0A75, U+200B-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Mukta Mahee';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Mukta Mahee Light'), local('MuktaMahee-Light'), url(https://fonts.gstatic.com/s/muktamahee/v2/kolKnxd29wydc4yTvsM4p9Dnm4qiMZlH5rhYv_7LI2Y.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Mukta Mahee';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Mukta Mahee Light'), local('MuktaMahee-Light'), url(https://fonts.gstatic.com/s/muktamahee/v2/kolKnxd29wydc4yTvsM4p9TIkQYohD4BpHvJ3NvbHoA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* gurmukhi */
+@font-face {
+  font-family: 'Mukta Mahee';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Mukta Mahee SemiBold'), local('MuktaMahee-SemiBold'), url(https://fonts.gstatic.com/s/muktamahee/v2/kolKnxd29wydc4yTvsM4p1iR1qIFy1jZX4ZvsmvB8y0.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0A01-0A75, U+200B-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Mukta Mahee';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Mukta Mahee SemiBold'), local('MuktaMahee-SemiBold'), url(https://fonts.gstatic.com/s/muktamahee/v2/kolKnxd29wydc4yTvsM4p0Wd5At5A4dPjoTcH8-WMxA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Mukta Mahee';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Mukta Mahee SemiBold'), local('MuktaMahee-SemiBold'), url(https://fonts.gstatic.com/s/muktamahee/v2/kolKnxd29wydc4yTvsM4p8iAiQ_a33snTsJhwZvMEaI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* gurmukhi */
+@font-face {
+  font-family: 'Mukta Mahee';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Mukta Mahee ExtraBold'), local('MuktaMahee-ExtraBold'), url(https://fonts.gstatic.com/s/muktamahee/v2/kolKnxd29wydc4yTvsM4p2VEONHhZC8M2Vbd079VjDc.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0A01-0A75, U+200B-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Mukta Mahee';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Mukta Mahee ExtraBold'), local('MuktaMahee-ExtraBold'), url(https://fonts.gstatic.com/s/muktamahee/v2/kolKnxd29wydc4yTvsM4p8I9ytsQgoRd-8mg6J4vcxU.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Mukta Mahee';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Mukta Mahee ExtraBold'), local('MuktaMahee-ExtraBold'), url(https://fonts.gstatic.com/s/muktamahee/v2/kolKnxd29wydc4yTvsM4p2PkvcX8kXDzy1NrkNCBkJ4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-weight: 300;
+  color: #4a4a4a;
+  text-align: left;
+  background-color: white;
+}
+
+h1 {
+  font-size: 2.7rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0;
+}
+
+h5 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+/*Header Section*/
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    background-color: #37b6ee;
+}
+
+#logo-block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 64px;
+}
+
+#logo-block p:nth-child(2n+0) {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+#logo-block p:nth-child(3n+0) {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu ul {
+  display: inline-flex;
+}
+
+.menu ul li {
+  display: inline-flex;
+  padding: 0 0 0 1rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu a:hover {
+  margin-top: -3px;
+  transition: 0.2s ease-in;
+  border-bottom: 2px solid #fff;
+  transition: 0.25s ease-in;
+}
+
+.menu-icons {
+  display: none;
+}
+
+@media only screen and (max-width: 720px) {
+  #logo-block p, #logo-block img {
+    display: none;
+  }
+
+  header {
+      padding: 0;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu-icons {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-icons ul {
+    display: inline-flex;
+    width: 100%;
+  }
+
+  .menu-icons ul li {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .menu-icons img {
+    display: inline-flex;
+    margin: 0 auto;
+  }
+}
+
+/*Main Section*/
+#main-section {
+  background-color: #d8d8d8;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.banner {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.main-text {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  flex-direction: column;
+}
+
+.main-text .button-start {
+  background-color: #4a4a4a;
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 1rem 0;
+  font-size: 1.25rem;
+  border-radius: 15px;
+}
+
+.button-start:hover {
+  color: #4a4a4a;
+  transition: color 0.25s ease-out;
+  background-color: #37b6ee;
+  transition: background-color 0.25s ease-out;
+}
+
+@media only screen and (max-width: 1100px) {
+  .main-text {
+      width: 30%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  #main-section {
+    flex-direction: column;
+  }
+
+  .banner {
+    width: 100%;
+    padding: 0;
+  }
+
+  .main-text {
+    width: 85%;
+    flex-direction: column;
+    padding: 2rem 2rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  h3 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/*Practice Section*/
+#practice-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-col {
+  flex-direction: column;
+  width: 60%;
+  padding: 2rem 1.5rem;
+  height: auto;
+}
+
+.left-col img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.left-col p {
+  margin: 1.5rem 0;
+  line-height: 1.3;
+}
+
+.right-col {
+  width: 40%;
+  padding-top: 1rem;
+  height: auto;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.block img {
+  width: 35%;
+  padding: 0 1rem;
+}
+
+.block .orientation-mob {
+  display: none;
+}
+
+.block .campus-mob {
+  display: none;
+}
+
+.block .guest-mob {
+  display: none;
+}
+
+.block .text-col {
+  width: 65%;
+}
+
+.block:nth-child(2n+0) {
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.text-col p {
+  margin: 0.5rem 0;
+}
+
+.text-col #read {
+  color: blue;
+}
+
+.block:hover {
+  background-color: #b4e8ff;
+  transition: background-color 1s ease 0.1s;
+}
+
+@media only screen and (max-width: 1100px) {
+  .left-col img {
+    margin-bottom: 1rem;
+  }
+
+  .left-col p {
+    font-size: 0.9rem;
+    margin: 0.75rem 0;
+  }
+
+  .left-col span {
+    font-size: 0.9rem;
+  }
+
+  .block {
+    padding: 0.5rem 1rem 0.5rem 0;
+  }
+
+  .block img {
+    padding: 0.5rem 0.5rem 0.5rem 0;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .text-col p {
+    font-size: 0.85rem;
+  }
+
+  .text-col #read {
+    font-size: 0.85rem;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .left-col {
+    display: none;
+  }
+
+  .right-col {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 2rem;
+  }
+
+  .block {
+    flex-direction: column;
+    padding: 1rem 1rem 2rem;
+  }
+
+  .block .orientation {
+    display: none;
+  }
+
+  .block img {
+    width: 100%;
+  }
+
+  .block .orientation-mob {
+    display: flex;
+  }
+
+  .block .campus {
+    display: none;
+  }
+
+  .block .campus-mob {
+    display: flex;
+    margin: 1rem 0 0;
+  }
+
+  .block .guest {
+    display: none;
+  }
+
+  .block .guest-mob {
+    display: flex;
+    margin: 1rem 0 0;
+  }
+
+  .block img {
+    padding: 0;
+  }
+
+  .block .text-col {
+    width: 100%;
+    margin: 1.2rem 0 0 1rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .text-col p {
+    font-size: 1.2rem;
+  }
+
+  .text-col #read {
+    font-size: 1rem;
+  }
+}
+
+/*learning section*/
+#learning-section {
+  background-color: #d8d8d8;
+  width: 100%;
+}
+
+#learning-section h2 {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem 3.5rem 0;
+}
+
+.subject {
+  display: inline-flex;
+  flex-direction: column;
+  background-color: white;
+  max-width: 30%;
+  margin: 0 1rem 2rem;
+}
+
+.subject img {
+  width: 100%;
+}
+
+.subject:hover {
+  color: #000;
+  transition: color 0.25s ease-out;
+  background-color: #b4e8ff;
+  transition: background-color 0.35s ease;
+}
+
+.text-container {
+  margin: 1rem 2rem 2rem 1rem;
+}
+
+.text-container p {
+  line-height: 1.25;
+}
+
+@media only screen and (max-width: 1100px) {
+  .box-container {
+    margin: 2rem 1rem 0;
+  }
+
+  .subject {
+    max-width: 45%;
+  }
+
+  h5 {
+    font-size: 0.85rem;
+    margin: 0.5rem 0;
+  }
+
+  .text-container p {
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  #learning-section {
+    background-color: #fff;
+    border-top: 1px solid #d8d8d8;
+  }
+
+  h2 {
+    padding-bottom: 1rem;
+  }
+  .box-container {
+    margin: 0;
+    padding-bottom: 2rem;
+  }
+
+  .subject img {
+    display: none;
+  }
+
+  .text-container h5, .text-container p {
+    display: none;
+  }
+
+  .subject {
+    min-width: 95%;
+    margin: 0 auto;
+  }
+
+  .text-container {
+    background: #d8d8d8;
+    padding: 1rem 1rem 1.5rem;
+    margin: 0.25rem 0;
+  }
+
+  .text-container h4 {
+    font-size: 2rem;
+  }
+
+  .text-container:hover {
+    background-color: #b4e8ff;
+    transition: color 0.25s ease-out;
+  }
+}
+
+/*Thesis Section*/
+#thesis-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.thesis-title {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.left-col-vid {
+  flex-direction: column;
+  width: 60%;
+  padding: 2rem 1.5rem;
+  height: auto;
+}
+
+.left-col-vid h4 {
+  margin: 2rem 0 0.5rem;
+}
+
+.left-col-vid p {
+  line-height: 1.3;
+}
+
+@media only screen and (max-width: 1100px) {
+  .left-col-vid h4 {
+    margin: 0.75rem 0 0.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 720px) {
+  .thesis-title {
+    border-top: 1px solid #d8d8d8;
+
+  }
+
+  #thesis-section .right-col {
+    display: none;
+  }
+
+  #thesis-section .left-col-vid {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .left-col-vid h4, .left-col-vid p {
+    display: none;
+  }
+
+}
+
+/*footer section*/
+footer {
+  border-top: 1px solid #d8d8d8;
+  padding: 1rem 2rem 3rem 2rem;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #b4e8ff;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer li {
+  margin-left: 1rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 720px) {
+  footer {
+    padding-bottom: 1rem;
+  }
+}
